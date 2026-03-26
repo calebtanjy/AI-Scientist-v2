@@ -194,3 +194,7 @@ final_papers/
 # HF
 cache/
 huggingface/
+
+# Frontend build artifacts
+node_modules/
+.next/

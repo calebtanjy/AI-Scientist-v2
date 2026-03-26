@@ -9,8 +9,8 @@ import {
   BookOpen,
   Play,
 } from "lucide-react";
-import type { ResearchIdea } from "@/lib/types";
-import { cn } from "@/lib/utils";
+import type { ResearchIdea } from "@/frontend/types";
+import { cn } from "@/frontend/utils";
 
 interface IdeasPanelProps {
   ideas: ResearchIdea[];

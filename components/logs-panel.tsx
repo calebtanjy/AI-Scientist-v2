@@ -9,8 +9,8 @@ import {
   ChevronDown,
   Filter,
 } from "lucide-react";
-import type { ExperimentRun } from "@/lib/types";
-import { cn } from "@/lib/utils";
+import type { ExperimentRun } from "@/frontend/types";
+import { cn } from "@/frontend/utils";
 
 interface LogsPanelProps {
   experiments: ExperimentRun[];
