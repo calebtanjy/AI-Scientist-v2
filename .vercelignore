@@ -1,0 +1,7 @@
+.git
+ai_scientist
+scripts
+*.py
+README_original.md
+bfts_config.yaml
+launch_scientist_bfts.py
