@@ -1,8 +1,8 @@
 "use client";
 
 import { FlaskConical, Github, FileText, Settings } from "lucide-react";
-import type { NavigationTab } from "@/lib/types";
-import { cn } from "@/lib/utils";
+import type { NavigationTab } from "@/frontend/types";
+import { cn } from "@/frontend/utils";
 
 interface HeaderProps {
   activeTab: NavigationTab;

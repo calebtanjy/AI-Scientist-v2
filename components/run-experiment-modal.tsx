@@ -2,9 +2,9 @@
 
 import { useState } from "react";
 import { X, Play, Cpu, GitBranch, FileCode, AlertCircle } from "lucide-react";
-import type { ResearchIdea } from "@/lib/types";
-import { availableModels } from "@/lib/mock-data";
-import { cn } from "@/lib/utils";
+import type { ResearchIdea } from "@/frontend/types";
+import { availableModels } from "@/frontend/mock-data";
+import { cn } from "@/frontend/utils";
 
 interface RunExperimentModalProps {
   idea: ResearchIdea;

@@ -11,8 +11,8 @@ import {
   RotateCcw,
   Info,
 } from "lucide-react";
-import { availableModels } from "@/lib/mock-data";
-import { cn } from "@/lib/utils";
+import { availableModels } from "@/frontend/mock-data";
+import { cn } from "@/frontend/utils";
 
 interface ConfigurationPanelProps {
   onSave?: (config: ConfigState) => void;
@@ -394,7 +394,7 @@ function SelectField({
   label: string;
   value: string;
   onChange: (value: string) => void;
-  options: string[];
+  options: readonly string[];
   optionLabels?: Record<string, string>;
   hint?: string;
 }) {

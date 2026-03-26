@@ -12,8 +12,8 @@ import {
   TreeDeciduous,
   RefreshCw,
 } from "lucide-react";
-import type { ExperimentRun } from "@/lib/types";
-import { cn } from "@/lib/utils";
+import type { ExperimentRun } from "@/frontend/types";
+import { cn } from "@/frontend/utils";
 
 interface ExperimentsPanelProps {
   experiments: ExperimentRun[];
